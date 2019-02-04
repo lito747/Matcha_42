@@ -1,0 +1,57 @@
+.ucbot-card-desc {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.75);
+
+
+  div,
+  a {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex: 1 1 auto;
+    border: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .title {
+    display: inline;
+    text-align: center;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  a.recipe-card-link{
+  display:flex;
+  text-decoration:none;
+}
+
+  .title {
+    font-size: 1.25rem;
+  }
+}
+
+.icon-marge {
+  margin-top: -5px;
+  margin-left: -13px;
+}
+
+.boutline {
+  outline: none;
+  outline-offset: 0;
+}
+
+.tmp {
+  margin-top: 25%;
+}
+
+.toback {
+  z-index: 0;
+}

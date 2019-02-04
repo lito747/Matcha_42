@@ -1,0 +1,16 @@
+.card-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.mfix {
+	overflow: hidden;
+}
+
+.bor {
+	z-index: 0;
+}

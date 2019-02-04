@@ -1,0 +1,12 @@
+a.card-link {
+  display: flex;
+  text-decoration: none;
+}
+
+  .female {
+    background-color: pink;
+  }
+
+  .male {
+  	background-color: #87CEEB;
+  }
